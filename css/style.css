@@ -1,0 +1,56 @@
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+div, img {max-width: 100%}
+.ban {
+  /*background-image: url('../img/banner.png');*/
+  background-color: rgb(204, 153, 255);
+  width: 100%;
+  padding: 2em 2em 2em 2em;
+}
+.background {
+   position: relative;
+}
+.red_banner {
+  background-color: rgba(204, 153, 255, 0.8);
+  width: 100%;
+}
+.wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+.subtitle1 {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.subtitle {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.gift_text {
+  text-align: center;
+}
+.col-left, .col-right {
+  font-size: 25px;
+  color: rgb(0, 51, 153);
+  font-weight: 900;
+}
+.time {
+  color: rgb(255, 204, 0);
+  font-size: 18px;
+  padding: 2em 00 2em;
+  text-align: center;
+  font-weight: 500;
+}
+.addr {
+  font-size: 18px;
+  padding: 2em 00 2em;
+  text-align: center;
+  font-weight: 500;
+
+}

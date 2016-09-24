@@ -1,0 +1,41 @@
+@media only screen and (min-width: 1024px) {
+.red_banner {
+  padding: 2em 2em 2em 2em;
+  position: absolute;
+  top: 45%;
+}
+.title {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 0 auto;
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+.subtitle {
+  font-size: 20px;
+}
+.col-left {
+  float: left;
+  padding-left: 20%;
+}
+.col-right {
+  float: right;
+  padding-right: 20%;
+}
+.invitation {
+  text-align: center;
+  margin: 1em 0 0 1em;
+  font-size: 35px;
+}
+.paragraph {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+.gift_text {
+  font-size: 30px;
+}
+}
