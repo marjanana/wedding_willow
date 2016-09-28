@@ -37,5 +37,12 @@
 }
 .gift_text {
   font-size: 30px;
+  padding: 1em 2em 1em 2em;
+  text-align: left;
+}
+.gift_text1 {
+  font-size: 30px;
+  padding: 1em 1em 1em 1em;
+  text-align: center;
 }
 }
