@@ -1,5 +1,5 @@
 @media only screen and (min-width: 1024px) {
-.red_banner {
+.red_banner, .red_banner1  {
   padding: 1em;
   top: 50%;
 }

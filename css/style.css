@@ -15,6 +15,11 @@ div, img {max-width: 100%}
   width: 98%;
   position: absolute;
 }
+.red_banner1 {
+  background-color: rgba(204, 153, 255, 0.3);
+  width: 98%;
+  position: absolute;
+}
 .subtitle1 {
   text-align: center;
   font-weight: 700;
