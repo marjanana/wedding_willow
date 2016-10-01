@@ -1,26 +1,19 @@
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
   font-family: 'Quattrocento Sans', sans-serif;
 }
 div, img {max-width: 100%}
 .ban {
   /*background-image: url('../img/banner.png');*/
   background-color: rgb(204, 153, 255);
-  width: 100%;
-  padding: 2em 2em 2em 2em;
 }
 .background {
    position: relative;
 }
 .red_banner {
   background-color: rgba(204, 153, 255, 0.8);
-  width: 100%;
-}
-.wrap {
-  width: 70%;
-  margin: 0 auto;
+  width: 98%;
+  position: absolute;
 }
 .subtitle1 {
   text-align: center;
@@ -35,6 +28,9 @@ div, img {max-width: 100%}
 .gift_text {
   text-align: center;
 }
+.gift_text1 {
+  text-align: center;
+}
 .col-left, .col-right {
   font-size: 25px;
   color: rgb(0, 51, 153);
@@ -43,14 +39,37 @@ div, img {max-width: 100%}
 .time {
   color: rgb(255, 204, 0);
   font-size: 18px;
-  padding: 2em 00 2em;
   text-align: center;
   font-weight: 500;
 }
 .addr {
   font-size: 18px;
-  padding: 2em 00 2em;
   text-align: center;
   font-weight: 500;
-
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 8px 18px 8px 18px;
+  text-decoration: none;
+  max-width: 100%;
+}
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }

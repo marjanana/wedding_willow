@@ -1,6 +1,10 @@
 @media only screen and (min-width: 1700px) {
+    body {
+       background-color: rgb(242, 230, 255);
+    }
     .container {
         width: 70%;
         margin: 0 auto;
+        background-color: white;
     }
   }

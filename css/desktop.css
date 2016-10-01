@@ -1,11 +1,10 @@
 @media only screen and (min-width: 1024px) {
 .red_banner {
-  padding: 2em 2em 2em 2em;
-  position: absolute;
-  top: 45%;
+  padding: 1em;
+  top: 50%;
 }
 .title {
-  font-size: 50px;
+  font-size: 2em;
   font-weight: 900;
   margin: 0 auto;
   color: white;
@@ -13,27 +12,12 @@
   text-align: center;
 }
 .subtitle {
-  font-size: 20px;
-}
-.col-left {
-  float: left;
-  padding-left: 20%;
-}
-.col-right {
-  float: right;
-  padding-right: 20%;
+  font-size: 1em;
 }
 .invitation {
   text-align: center;
   margin: 1em 0 0 1em;
   font-size: 35px;
-}
-.paragraph {
-  width: 20%;
-  margin: 0 auto;
-  text-align: center;
-  font-weight: 500;
-  font-size: 18px;
 }
 .gift_text {
   font-size: 30px;
@@ -42,7 +26,15 @@
 }
 .gift_text1 {
   font-size: 30px;
-  padding: 1em 1em 1em 1em;
   text-align: center;
+  padding: 2%;
+}
+.btn {
+  font-size: 38px;
+  padding: 10px 20px 10px 20px;
+}
+.wrap, {
+   position: relative;
+
 }
 }

@@ -9,7 +9,7 @@
   top: 40%;
 }
 .title {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 900;
   margin: 0 auto;
   color: white;
@@ -17,6 +17,17 @@
   text-align: center;
 }
 .subtitle {
-  font-size: 0.5em;
+  font-size: 1em;
+}
+.ban {
+  padding: 0.5em;
+  max-width: 100%;
+}
+.gift_text {
+  padding-top: 2%;
+}
+.btn {
+  font-size: 38px;
+  padding: 10px 20px 10px 20px;
 }
 }
