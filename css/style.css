@@ -30,10 +30,7 @@ div, img {max-width: 100%}
   font-weight: 700;
   color: rgb(255, 255, 255);
 }
-.gift_text {
-  text-align: center;
-}
-.gift_text1 {
+.gift_text, .gift_text1, .gift_text2 {
   text-align: center;
 }
 .col-left, .col-right {

@@ -25,9 +25,11 @@
   text-align: left;
 }
 .gift_text1 {
-  font-size: 30px;
-  text-align: center;
-  padding: 2%;
+  font-size: 22px;
+  padding: 0 5% 0 5%;
+}
+.gift_text2 {
+  padding-top: 3%;
 }
 .btn {
   font-size: 38px;
