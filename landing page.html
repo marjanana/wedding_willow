@@ -1,0 +1,228 @@
+<style>
+.gallery {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-weight: 700;
+  padding: 2% 2% 2% 2%;
+}
+.btn {
+  margin-top:1%;
+  float: right;
+  max-width:100%;
+  background: #faea03;
+  background-image: -webkit-linear-gradient(top, #faea03, #c2c229);
+  background-image: -moz-linear-gradient(top, #faea03, #c2c229);
+  background-image: -ms-linear-gradient(top, #faea03, #c2c229);
+  background-image: -o-linear-gradient(top, #faea03, #c2c229);
+  background-image: linear-gradient(to bottom, #faea03, #c2c229);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 3px 4px 6px #666666;
+  -moz-box-shadow: 3px 4px 6px #666666;
+  box-shadow: 3px 4px 6px #666666;
+  font-family: Arial;
+  color: #030003;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #fcfcf9;
+  background-image: -webkit-linear-gradient(top, #fcfcf9,  #fafa20);
+  background-image: -moz-linear-gradient(top, #fcfcf9,  #fafa20);
+  background-image: -ms-linear-gradient(top, #fcfcf9,  #fafa20);
+  background-image: -o-linear-gradient(top, #fcfcf9,  #fafa20);
+  background-image: linear-gradient(to bottom, #fcfcf9,  #fafa20);
+  text-decoration: none;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #ffffff;
+    color: #999966;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+ }
+/* The container - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    background-color: #990000;
+    max-width: 100%;
+    z-index: 3;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ebebe0
+  }
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;<br />}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #cc0000;
+}
+.hero {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+    z-index: -1;
+}
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+.text {
+    position:absolute;
+    max-width: 100%;
+    z-index: 2;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-weight: 700;
+}
+.logo {
+    position: absolute;
+    z-index: 2;
+    max-width: 100%;
+}
+.footer {
+    position: absolute;
+    background-color: #990000;
+    max-width: 100%;
+    padding: 2% 2% 2% 2%;
+    width: 100%;
+    margin-top: 5%;
+}
+.album {
+    opacity: 1.0;
+}
+.album:hover {
+    opacity: 0.5;
+}
+@media only screen and (min-width: 1024px) {
+.text {
+    top:25%;
+    font-size: 20px;
+    margin-left: 55%;
+    width: 40%;
+    padding: 2% 2% 2% 2%;
+    background-color: rgba(255, 221, 153, 0.5);
+}
+.logo {
+    width: 100%;
+    text-align: left;
+    margin-left: 0.5em;
+}
+.album {
+    width: 19.5%;
+    display: inline;
+}
+.btn {
+    font-size: 1em;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+.dropbtn {
+    top:3em;
+    position: absolute;
+}
+.dropdown-content {
+    top:5em;
+    position: absolute;
+}
+}
+@media only screen and (max-width: 1023px) {
+.text {
+    top: 10%;
+    width: 40%;
+    float: left;
+    padding: 2% 2% 2% 2%;
+    background-color: rgba(255, 221, 153, 0.5);
+}
+.logo {
+    width: 100%;
+    text-align: left;
+    margin-left: 2em;
+    background-color: #ffffff;
+    padding-bottom: 1%;
+    display: block;
+}
+@media only screen and (min-width: 375px) {
+.text {
+    width: 100%;
+    background: #ffffff;
+    font-size: 1.5em;
+    top: 21em;
+}
+.dropbtn {
+    padding: 1.5em;
+    font-size: 1.5rem;
+}
+.btn {
+    padding: 1em 2em 1em 2em;
+    font-size: 1.5em;
+    margin-right: 3em;
+    margin-top: 3%;
+}
+#logo {
+    width: 50%;
+    text-align: center;
+
+}
+.gallery {
+    font-size: 2em;
+    margin-top: 5em;
+}
+.hero {
+    width: 100%;
+}
+.album {
+    width: 49%;
+    display: inline;
+}
+}
+</style>
+
+<div class="container">
+
+  <div class="logo"><img id="logo"src="http://tattoomilan.net/wp-content/uploads/2016/10/cropped-logo_Willow_1-large-e1477688971653-1.png" /></div>
+  <div class="dropdown">
+  <button class="dropbtn">☰MENU</button>
+    <div class="dropdown-content">
+    <a href="#">Link 1></a>
+    <a href="#">Link 2></a>
+    <a href="#">Link 3></a></div>
+  </div>
+  <p class="text">The <em>Seeing Beyond Prison Bars</em> project about former inmates in Indonesia has made me even more interested in telling truthful, sensitive stories about everyday people<br>
+    <a href="http://tattoomilan.net/contact/"><button class="btn">Contact Me</button></a>
+    <a href="#"><button class="btn">Contribute</button></a>
+  </p>
+  <img class="hero" src="http://tattoomilan.net/wp-content/uploads/2016/10/Relearning-how-to-9.jpg" />
+
+<div class="container">
+  <p class="gallery">View my other socially-engaged projects<br>&darr;</p>
+  <a href="http://tattoomilan.net/relearnig-how-to/"><img class="album" src="http://tattoomilan.net/wp-content/uploads/2016/10/Relearning-how-to-9.jpg"></img></a>
+  <a href="http://tattoomilan.net/girls-now-women/"><img class="album" src="http://tattoomilan.net/wp-content/uploads/2016/11/Girls-now-women-15.jpg"></img></a>
+  <a href="http://tattoomilan.net/odd-jobs-and-enterpreneurs/"><img class="album" src="http://tattoomilan.net/wp-content/uploads/2016/10/9-Movie-husband-willowpaule.jpg"></img></a>
+  <a href="http://tattoomilan.net/individual-photographs/"><img class="album" src="http://tattoomilan.net/wp-content/uploads/2016/10/1-entrepreneurs-aspirations-willowpaule-1.jpg"></img></a>
+  <a href="http://tattoomilan.net/events/"><img class="album" src="http://tattoomilan.net/wp-content/uploads/2016/11/womensrights-dust.jpg"></img></a>
+</div>
+<div class="footer"></div>
