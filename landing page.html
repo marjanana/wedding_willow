@@ -43,7 +43,7 @@
     color: #999966;
     padding: 5px;
     font-size: 16px;
-    border: none;
+    border: solid 0.3px rgba(217, 217, 219, 0.5);
     cursor: pointer;
  }
 /* The container - needed to position the dropdown content */
@@ -70,14 +70,15 @@
 }
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #ebebe0
+    background-color: #ebebe0;
   }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    display: block;<br />}
+    display: block;
+  }
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #cc0000;
+    background-color: #ebebe0;;
 }
 .hero {
     max-width: 100%;
@@ -141,11 +142,12 @@
     margin-top: 3%;
 }
 .dropbtn {
-    top:3em;
+    top:3.3em;
     position: absolute;
+    margin-left: 1em;
 }
 .dropdown-content {
-    top:5em;
+    top:5.3em;
     position: absolute;
 }
 }
@@ -183,9 +185,13 @@
     margin-top: 3%;
 }
 #logo {
-    width: 50%;
-    text-align: center;
-
+    width: 30%;
+    margin-left: 60%;
+    padding-top: 2%;
+}
+.logo {
+  position: absolute;
+  background: transparent;
 }
 .gallery {
     font-size: 2em;
@@ -197,6 +203,12 @@
 .album {
     width: 49%;
     display: inline;
+}
+.footer_menu {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 2%;
 }
 }
 </style>
@@ -225,4 +237,4 @@
   <a href="http://tattoomilan.net/individual-photographs/"><img class="album" src="http://tattoomilan.net/wp-content/uploads/2016/10/1-entrepreneurs-aspirations-willowpaule-1.jpg"></img></a>
   <a href="http://tattoomilan.net/events/"><img class="album" src="http://tattoomilan.net/wp-content/uploads/2016/11/womensrights-dust.jpg"></img></a>
 </div>
-<div class="footer"></div>
+<div class="footer"><p class="footer_menu"><a href="http://tattoomilan.net/projects/">-Projects-</a><a href="">-Publications-</a><a href="">-Store-</a><a href="">-Blog-</a><a href="">About</a><a href="">-Contact-</a></p></div>
