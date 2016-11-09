@@ -16,7 +16,13 @@
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-weight: 200;
   font-style: italic;
-  padding: 2% 2% 2% 2%;
+  padding: 2% 2% 0 2%;
+}
+.signature {
+  text-align: right;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-weight: 200;
+  padding-right: 2%;
 }
 .btn {
   margin-top:1%;
@@ -38,6 +44,7 @@
   color: #030003;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 .btn:hover {
   background: #fcfcf9;
@@ -54,7 +61,7 @@
     color: #999966;
     padding: 5px;
     font-size: 16px;
-    border: solid 0.3px rgba(217, 217, 219, 0.5);
+    border: none;/*border: solid 0.3px rgba(217, 217, 219, 0.5);*/
     cursor: pointer;
  }
 /* The container - needed to position the dropdown content */
@@ -71,6 +78,8 @@
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-size: 16px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -78,6 +87,7 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-size: 16px;
 }
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
@@ -108,7 +118,7 @@
     max-width: 100%;
     z-index: 2;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 }
 .logo {
     position: absolute;
@@ -144,7 +154,6 @@ a.custom_link {
   color: #936826;
   text-decoration: none;
 }
-
 @media only screen and (min-width: 1024px) {
 .text {
     top: 20%;
@@ -154,6 +163,14 @@ a.custom_link {
     padding: 2% 2% 2% 2%;
     background-color: rgba(255, 221, 153, 0.5);
     z-index: 1;
+}
+form {
+    top: 40%;
+    margin-left: 30%;
+    width: 40%;
+    padding: 2% 2% 2% 2%;
+    z-index: 1;
+    position: absolute;
 }
 .logo {
     width: 100%;
@@ -176,6 +193,7 @@ a.custom_link {
 }
 .dropdown-content {
     top:5.3em;
+    margin-left: 1em;
     position: absolute;
 }
 }
@@ -246,9 +264,11 @@ a.custom_link {
     <a href="#">Link 2></a>
     <a href="#">Link 3></a></div>
   </div>
-  <p class="text">The <em>Seeing Beyond Prison Bars</em> project about former inmates in Indonesia has made me even more interested in telling truthful, sensitive stories about everyday people<br>
+  <p class="text">The <em>Seeing Beyond Prison Bars</em> project about former inmates in Indonesia has made me even more interested in telling truthful, sensitive stories about everyday people.<br>
     <a href="http://tattoomilan.net/contact/"><button class="btn">Contact Me</button></a>
-    <a href="#"><button class="btn">Contribute</button></a>
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><input name="cmd" type="hidden" value="_s-xclick" /><input name="hosted_button_id" type="hidden" value="E3ATMCWXJ4WUU" /><input style="display: none; margin: 0 auto;" alt="PayPal - The safer, easier way to pay online!" name="submit" src="" type="image" /><button class="btn">Contribute</button>
+</form>
+
   </p>
   <img class="hero" src="http://tattoomilan.net/wp-content/uploads/2016/10/Relearning-how-to-9.jpg" />
 
@@ -261,8 +281,11 @@ a.custom_link {
 </ul>
   <a href="http://tattoomilan.net/events/"><img class="album" src="http://tattoomilan.net/wp-content/uploads/2016/11/womensrights-dust.jpg"></img></a>
 
-  <p class="testimony">"Willow Paule is a genius. She turned my vision into gallery-worthy art. There is something truly special about her work, something you'll never get with other photographers. She is an amazing person and a delight to work with. Hire Willow Paule; your ideas will morph into a masterpiece."<br>
-- Lisa Baughn</p>
+  <p class="testimony">Willow Paule documented Kopernik's first technology agent training with PEKKA (women’s group] in Lombok, Indonesia and we couldn't have gotten a better person to do it. In all her photos she captures more than just what the eye can see&mdash;the energy and hearts of the women involved really shine through in the end products. This is more than what we wanted, as the event was not about us but more about the special PEKKA women who attended the training.
+
+Willow is also a terrific person to work with and always so willing to help beyond her duties. We're glad to have worked with her and hope to see her again in more of our events!"</p>
+
+<p class="signature">- Cindy Nawilis, Kopernik</p>
 </div>
 
 <div class="footer">
