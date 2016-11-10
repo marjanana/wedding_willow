@@ -198,29 +198,38 @@ a.custom_link {
     position: absolute;
 }
 }
-@media only screen and (max-width: 1023px) {
-
+@media only screen and (min-width: 700px) and (max-width: 1023px) {
+.hero {
+  width: 100%;
+}
 .text {
-    top: 10%;
-    width: 40%;
-    float: left;
+    top: 20%;
+    font-size: 20px;
+    margin-left: 35%;
+    width: 60%;
     padding: 2% 2% 2% 2%;
     background-color: rgba(255, 221, 153, 0.5);
+    z-index: 1;
 }
 .logo {
     width: 100%;
     text-align: left;
-    margin-left: 2em;
-    background-color: #ffffff;
-    padding-bottom: 1%;
-    display: block;
+    margin-left: 0.5em;
+}
+.btn {
+    font-size: 1em;
+    margin: 3% 0 2% 3%;
+    padding: 2% 5%;
+}
+.album {
+  width: 19.5%;
+  display: inline;
 }
 .dropbtn {
-    top: 0.5em;
+    top:3.3em;
     position: absolute;
-    margin-left: 0.2em;
-    padding: 0.2em;
-    font-size: 0.2em;
+    margin-left: 1em;
+    font-size: 1.1em;
 }
 .dropdown-content {
     top:5.3em;
@@ -228,50 +237,55 @@ a.custom_link {
     position: absolute;
 }
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 376px) and (max-width: 699px) {
+.hero {
+  width: 100%;
+}
 .text {
-    width: 95%;
+    width: 98%;
     background: #ffffff;
-    font-size: 2em;
-    top: 17em;
+    font-size: 16px;
+    top: 120%;
+    max-width: 100%;
+    text-align: center;
 }
 .dropbtn {
     top: 0.2em;
     padding: 0.3em;
-    font-size: 2em;
+    font-size: 16px;
 }
 .dropdown-content {
-    top:2.2em;
-    margin-left: 0.3em;
+    top:1.1em;
+    margin-left: 0.1em;
     position: absolute;
     font-size: 2em;
 }
 .btn {
-    padding: 1em 2em 1em 2em;
-    font-size: 30px;
-    margin-left: 10%;
-    margin-top: 0.8em ;
+    font-size: 16px;
+    margin-top: 3%;
+    margin-left: 8%;
+    padding: 2% 5%;
 }
-#logo {
-    width: 35%;
-    margin-left: 53%;
-    padding-top: 2%;
+#logo{
+    width: 100%;
 }
 .logo {
   position: absolute;
   background: transparent;
+  width: 35%;
+  margin-left: 55%;
+  padding-top: 2%;
 }
 .gallery {
-    font-size: 1em;
-    margin-top: 15rem;
+    font-size: 16px;
+    margin-top: 11rem;
 }
 .hero {
     width: 100%;
 }
 .album {
-    width: 55rem;
     display: block;
-    margin: 0 auto;
+    max-width: 100%;
 }
 .testimony {
     font-size: 15px;
@@ -280,13 +294,12 @@ a.custom_link {
   font-size: 12px;
 }
 }
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 375px) {
 .text {
     width: 95%;
     background: #ffffff;
     font-size: 16px;
     top: 40%;
-
 }
 .dropbtn {
     top: 0.2em;
@@ -305,14 +318,15 @@ a.custom_link {
     margin-left: 5%;
     margin-top: 3%;
 }
-#logo {
-    width: 35%;
-    margin-left: 48%;
-    padding-top: 2%;
+#logo{
+    width: 100%;
 }
 .logo {
   position: absolute;
   background: transparent;
+  width: 35%;
+  margin-left: 53%;
+  padding-top: 2%;
 }
 .gallery {
     font-size: 16px;
@@ -333,6 +347,7 @@ a.custom_link {
   padding-bottom: 2%;
 }
 }
+
 </style>
 <head>
 <body>
