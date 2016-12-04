@@ -9,11 +9,10 @@
   }
 .gallery {
   text-align: center;
-  font-size: 20px;
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-weight: 400;
-  padding: 2% 2% 2% 2%;
-  color: #8e0106;
+  background-color: rgba(0, 102, 0, 0.7);
+  color: #ffffff;
 }
 .testimony {
   text-align: center;
@@ -163,17 +162,23 @@ a.custom_link {
 }
 @media only screen and (min-width: 1024px) {
 .text {
-    top: 20%;
-    font-size: 20px;
-    margin-left: 55%;
-    width: 40%;
-    padding: 2% 2% 2% 2%;
-    background-color: rgba(255, 221, 153, 0.5);
+    top: 3%;
+    margin-left: 50%;
+    width: 45%;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2% 2% 2% 0;
     z-index: 1;
+    font-size: 30px;
+}
+.tagline {
+    font-weight: 800;
+    font-size: 30px;
+}
+#logo {
+    width: 30%;
 }
 .logo {
-    width: 100%;
-    text-align: left;
     margin-left: 0.5em;
 }
 .btn {
@@ -183,8 +188,24 @@ a.custom_link {
     padding: 2% 5%;
 }
 .album {
-  width: 19.5%;
-  display: inline;
+  width: 19%;
+  display: inline-block;
+}
+.gallery {
+    font-size: 25px;
+    padding: 1em 0 1em 0;
+    width: 40%;
+    margin-top: -13%;
+    z-index: 1;
+    position: absolute;
+    margin-left: 6%;
+}
+.image_links {
+    width: 90%;
+    margin-top: -5%;
+    z-index: 1;
+    position: absolute;
+    margin-left: 6%;
 }
 .dropbtn {
     top:3.3em;
@@ -197,25 +218,49 @@ a.custom_link {
     margin-left: 1em;
     position: absolute;
 }
+.testimony {
+    margin: 15% 2% 2% 6%;
+    text-align: left;
+}
 }
 @media only screen and (min-width: 700px) and (max-width: 1023px) {
 .hero {
   width: 100%;
 }
 .text {
-    top: 20%;
-    font-size: 20px;
-    margin-left: 35%;
-    width: 60%;
-    padding: 2% 2% 2% 2%;
-    background-color: rgba(255, 221, 153, 0.5);
+    top: 1%;
+    margin-left: 50%;
+    width: 45%;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2% 2% 2% 0;
     z-index: 1;
+    font-size: 20px;
 }
-#logo{
-    width: 75%;
+.tagline {
+    font-weight: 800;
+    font-size: 25px;
+}
+.gallery {
+    font-size: 20px;
+    padding: 1em;
+    width: 40%;
+    margin-top: -13%;
+    z-index: 1;
+    position: absolute;
+    margin-left: 4%;
+}
+.image_links {
+    width: 90%;
+    margin-top: -5%;
+    z-index: 1;
+    position: absolute;
+    margin-left: 4%;
+}
+#logo {
+    width: 25%;
 }
 .logo {
-    text-align: left;
     margin-left: 0.5em;
 }
 .btn {
@@ -238,18 +283,25 @@ a.custom_link {
     margin-left: 1em;
     position: absolute;
 }
+.testimony {
+    margin: 15% 2% 2% 3%;
+    text-align: left;
 }
-@media only screen and (min-width: 376px) and (max-width: 699px) {
+}
+@media only screen and (min-width: 401px) and (max-width: 699px) {
 .hero {
   width: 100%;
 }
 .text {
-    width: 98%;
-    background: #ffffff;
-    font-size: 16px;
-    top: 120%;
-    max-width: 100%;
-    text-align: center;
+    top: 13%;
+    margin-left: 52%;
+    width: 42%;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2% 2% 2% 0;
+}
+.tagline {
+    font-weight: 800;
 }
 .dropbtn {
     top: 0.2em;
@@ -274,20 +326,21 @@ a.custom_link {
 .logo {
   position: absolute;
   background: transparent;
-  width: 35%;
-  margin-left: 55%;
-  padding-top: 2%;
+  width: 30%;
+  margin-left: 63%;
 }
 .gallery {
+    background-color: rgba(0, 102, 0, 0.7);
+    color: #ffffff;
+    padding: 1em 0 1em 0;
     font-size: 16px;
-    margin-top: 11rem;
 }
 .hero {
     width: 100%;
 }
 .album {
-    display: block;
-    max-width: 100%;
+    display: inline;
+    width: 49%;
 }
 .testimony {
     font-size: 15px;
@@ -296,12 +349,17 @@ a.custom_link {
   font-size: 12px;
 }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
 .text {
     width: 95%;
     background: #ffffff;
     font-size: 16px;
-    top: 40%;
+    top: 41%;
+    text-align: center;
+}
+.tagline {
+    text-align: center;
+    font-weight: 800;
 }
 .dropbtn {
     top: 0.2em;
@@ -332,7 +390,10 @@ a.custom_link {
 }
 .gallery {
     font-size: 16px;
-    margin-top: 12.5rem;
+    margin-top: 12.3rem;
+    background-color: rgba(0, 102, 0, 0.7);
+    color: #ffffff;
+    padding: 1em 0 1em 0;
 }
 .hero {
     width: 100%;
@@ -355,7 +416,7 @@ a.custom_link {
 <body>
 <div class="container">
 
-  <div class="logo"><img id="logo"src="http://tattoomilan.net/wp-content/uploads/2016/10/cropped-logo_Willow_1-large-e1477688971653-1.png" /></div>
+  <div class="logo"><img id="logo"src="img/willowlogo.jpg" /></div>
   <div class="dropdown">
   <button class="dropbtn">☰MENU</button>
     <div class="dropdown-content">
@@ -363,24 +424,22 @@ a.custom_link {
     <a href="#">Link 2></a>
     <a href="#">Link 3></a></div>
   </div>
-  <p class="text">The <em>Seeing Beyond Prison Bars</em> project about former inmates in Indonesia has made me even more interested in telling truthful, sensitive stories about everyday people.<br>
-    <a href="http://tattoomilan.net/contact/"><button class="btn">Contact Me</button></a>
-    <a href="#"><button class="btn">Contribute</button></a>
+  <p class="text"><span class="tagline">DOCUMENTING LIVES<br> AND ORGANIZATIONS</span><br>My photography practice is focused on sensitively telling the stories of everyday people.
   </p>
   <img class="hero" src="img/Relearning-how-to-9.jpg" />
 
 <div class="container">
-  <p class="gallery">View my socially-engaged projects<br>&darr;</p>
-<a href=""><img class="album" src="img/3-fatherdaughter-album.jpg"></img></a>
- <a href=""><img class="album" src="img/Girls-now-women-album.jpg"></img></a>
- <a href=""><img class="album" src="img/individual-album.jpg"></img></a>
- <a href=""><img class="album" src="img/odd jobs-album.jpg"></img></a>
-</ul>
-  <a href="http://tattoomilan.net/events/"><img class="album" src="img/events-album.jpg"></img></a>
-
-  <p class="testimony">Willow Paule documented Kopernik's first technology agent training with PEKKA (women’s group] in Lombok, Indonesia and we couldn't have gotten a better person to do it. In all her photos she captures more than just what the eye can see&mdash;the energy and hearts of the women involved really shine through in the end products. This is more than what we wanted, as the event was not about us but more about the special PEKKA women who attended the training.
-
-Willow is also a terrific person to work with and always so willing to help beyond her duties. We're glad to have worked with her and hope to see her again in more of our events!"</p>
+  <p class="gallery">SOCIALLY ENGAGED PROJECTS<br></p>
+  <div class="image_links">
+  <a href=""><img class="album" src="img/3-fatherdaughter-album.jpg"></img></a>
+   <a href=""><img class="album" src="img/Girls-now-women-album.jpg"></img></a>
+   <a href=""><img class="album" src="img/individual-album.jpg"></img></a>
+   <a href=""><img class="album" src="img/odd jobs-album.jpg"></img></a>
+    <a href="http://tattoomilan.net/events/"><img class="album" src="img/events-album.jpg"></img></a>
+  </div>
+</div>
+<div class="container">
+  <p class="testimony">Willow Paule documented Kopernik's first technology agent training with PEKKA (women’s group] in Lombok, Indonesia and we couldn't have gotten a better person to do it. In all her photos she captures more than just what the eye can see&mdash;the energy and hearts of the women involved really shine through in the end products. This is more than what we wanted, as the event was not about us but more about the special PEKKA women who attended the training. <br><br>Willow is also a terrific person to work with and always so willing to help beyond her duties. We're glad to have worked with her and hope to see her again in more of our events!"</p>
 
 <p class="signature">- Cindy Nawilis, Kopernik</p>
 </div>
